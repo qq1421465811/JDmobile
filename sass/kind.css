@@ -1,0 +1,50 @@
+.kind {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header_kind_cart {
+  height: 3rem;
+  width: 100%;
+}
+.header_kind_cart .top-search {
+  height: 100%;
+  width: 25rem;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.header_kind_cart .top-search .return-view {
+  height: 2.933rem;
+  width: 2.66rem;
+  line-height: 2.933rem;
+  text-align: center;
+}
+.header_kind_cart .top-search .return-view i {
+  font-size: 1.4rem;
+}
+.header_kind_cart .top-search .title-text {
+  height: 2rem;
+  width: 21.6rem;
+}
+.header_kind_cart .top-search .title-text input {
+  height: 2rem;
+  width: 15.93rem;
+  background-color: #f7f7f7;
+  padding: 0 0.66rem 0 2.333rem;
+  line-height: 2rem;
+  border-radius: 1.2rem;
+}
+
+/*# sourceMappingURL=kind.css.map */

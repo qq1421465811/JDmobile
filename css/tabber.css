@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?6z8kqf');
+  src:  url('../fonts/icomoon.eot?6z8kqf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6z8kqf') format('truetype'),
+    url('../fonts/icomoon.woff?6z8kqf') format('woff'),
+    url('../fonts/icomoon.svg?6z8kqf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i{
+	font-style: normal;
+	font-family: icomoon;
+}
+.nav_bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 3rem;
+	width: 100%;
+	z-index: 5;
+}
+.nav_bottom_box{
+  width: 25rem;
+  height: 100%;
+  display: flex;
+ justify-content: space-around;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: white;
+  box-shadow: 0 0.1rem 0.5rem 0.3rem rgba(150,150,150,0.3);
+  margin: 0 auto;
+}
+.nav_bottom_box > a {
+  font-size: 0.8rem;
+  color: #999999;
+  display: inline-block;
+  flex: 1;
+  height: 3rem;
+  padding-top: 0.1rem;
+}
+.nav_bottom_box > a > i {
+  display: block;
+  font-size: 1rem;
+}
+.nav_bottom_box .active {
+  color: #FA8072;
+}
+
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.panel-active {
+  display: block;
+}
+
+
+
+
+
+
+
+/* // .nav_bottom {
+//   width: 100%;
+//   height: 3rem;
+//   position: fixed;
+//   bottom: 0;
+//   display: flex;
+//   justify-content: space-around;
+//   text-align: center;
+//   padding-top: 0.5rem;
+//   &>a {
+//   	font-size: 0.8rem;
+//   	color: #999999;
+//   	display: inline-block;
+//   	flex: 1;
+//   	height: 3rem;
+// 	padding-top: 0.1rem;
+// 	&>i{
+// 		display: block;
+// 		font-size: 1rem;
+// 	}
+//   }
+  
+//   & .active{
+// 	color: #FA8072;
+// }
+// }
+
+
+// .panel{
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	display: none;
+// }
+// .panel-active{
+// 	display: block;
+// }
+
+
+
+
+
+
+
+
+
+
+// .nav_bottom{
+// 	width: 100%;
+// 	height: 3rem;
+// 	position: fixed;
+// 	bottom: 0;
+// 	 &>ul{
+// 		 height: 100%;
+// 		 width: 100%;
+// 		justify-content: space-around;
+// 		display: flex;
+// 		 >li{
+	
+// 			 list-style: none;
+// 			 line-height: 3rem;
+// 			 // justify-content: space-around;
+// 			 font-size: 0.8rem;
+// 		 }
+// 	 }
+// 	} */

@@ -1,0 +1,613 @@
+@charset "UTF-8";
+.mine {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f7f7f7; }
+
+header {
+  height: 3rem;
+  width: 100%; }
+  header .top-speak {
+    height: 100%;
+    width: 25rem;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.06rem; }
+    header .top-speak .return-view {
+      height: 2.933rem;
+      width: 2.66rem;
+      line-height: 2.933rem;
+      text-align: center; }
+      header .top-speak .return-view i {
+        font-size: 1.4rem; }
+    header .top-speak .title-text {
+      height: 2.933rem;
+      width: 15.66rem;
+      text-align: center;
+      line-height: 2.933rem; }
+    header .top-speak .more-nav {
+      height: 2.933rem;
+      width: 2.66rem; }
+      header .top-speak .more-nav span {
+        display: block;
+        font-size: 2rem;
+        height: 1.3rem;
+        width: 1.3rem;
+        margin: 0.8rem 0.8rem 0.8rem 0.66rem;
+        line-height: 0rem; }
+
+.top-user {
+  height: 12.6rem;
+  width: 100%; }
+  .top-user .top-user-box {
+    height: 100%;
+    width: 25rem;
+    margin: 0 auto;
+    background: linear-gradient(left, #ff295d, #f62d1f);
+    background: -webkit-linear-gradient(left, #ff295d, #f62d1f);
+    color: #FFFFFF;
+    font-size: 0.93rem;
+    padding: 0.8rem 0 0.66rem; }
+    .top-user .top-user-box .user_info {
+      position: relative;
+      width: 100%;
+      height: 4.66rem;
+      padding: 0 0 1.2rem 1.2rem; }
+      .top-user .top-user-box .user_info .user_info_head {
+        height: 3.4667rem;
+        width: 3.4667rem; }
+        .top-user .top-user-box .user_info .user_info_head img {
+          height: 3.33rem;
+          width: 3.33rem; }
+      .top-user .top-user-box .user_info .user_real_name {
+        position: absolute;
+        left: 0.33rem;
+        bottom: 1rem;
+        height: 1rem;
+        width: 5.33rem;
+        font-size: 0.8rem;
+        padding: 0 0.93rem 0 0.4rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgba(255, 255, 255, 0.7);
+        border-radius: 1rem;
+        line-height: 1rem; }
+      .top-user .top-user-box .user_info .user_real_name::after {
+        position: absolute;
+        font-family: "icomoon";
+        content: "";
+        right: 0;
+        top: 0.1rem; }
+      .top-user .top-user-box .user_info .user_info_message {
+        position: absolute;
+        width: 20.33rem;
+        height: 3.13rem;
+        padding-left: 1rem;
+        right: 0;
+        top: 0; }
+        .top-user .top-user-box .user_info .user_info_message .user_name {
+          height: 1.4rem;
+          width: 19.3rem;
+          font-size: 1.2rem;
+          line-height: 1.4rem; }
+          .top-user .top-user-box .user_info .user_info_message .user_name i {
+            font-size: 0.5rem;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 1rem;
+            color: rgba(250, 250, 250, 0.7); }
+        .top-user .top-user-box .user_info .user_info_message .hor_tips {
+          height: 1.06rem;
+          width: 19.3rem;
+          display: flex;
+          justify-content: left;
+          margin: 0.66rem 0 0;
+          font-size: 0.93rem;
+          color: #FFFFFF; }
+          .top-user .top-user-box .user_info .user_info_message .hor_tips .notice {
+            height: 1.06rem;
+            line-height: 1.06rem;
+            padding: 0 0.53rem;
+            background-color: rgba(0, 0, 0, 0.16);
+            border-radius: 1rem;
+            transform: scale(0.9);
+            font-family: "宋体";
+            font-weight: bold; }
+          .top-user .top-user-box .user_info .user_info_message .hor_tips .x_arrow {
+            position: relative;
+            height: 1.06rem;
+            line-height: 1.06rem;
+            margin-right: 1rem;
+            padding: 0 0.93rem 0 0.53rem;
+            background-color: rgba(0, 0, 0, 0.16);
+            border-radius: 1rem;
+            transform: scale(0.9); }
+          .top-user .top-user-box .user_info .user_info_message .hor_tips .x_arrow::after {
+            position: absolute;
+            font-family: "icomoon";
+            content: "";
+            right: 0;
+            top: 0.1rem;
+            color: rgba(255, 255, 255, 0.5); }
+      .top-user .top-user-box .user_info .shezhi {
+        position: absolute;
+        right: 1rem;
+        font-size: 1.7rem;
+        top: 0; }
+    .top-user .top-user-box .s_group {
+      height: 3.33rem;
+      width: 100%;
+      padding: 0 0.93rem;
+      font-size: 0.93rem;
+      display: flex;
+      justify-content: space-around;
+      font-size: 0.8rem;
+      color: #FFFFFF; }
+      .top-user .top-user-box .s_group .s_group_item {
+        height: 3.33rem;
+        width: 7.711rem;
+        text-align: center; }
+        .top-user .top-user-box .s_group .s_group_item .number {
+          height: 1.06rem;
+          width: 100%;
+          font-weight: bold;
+          font-size: 1.06rem; }
+        .top-user .top-user-box .s_group .s_group_item span {
+          display: block;
+          height: 2.26rem;
+          width: 100%;
+          line-height: 2.26rem; }
+    .top-user .top-user-box .v_message {
+      height: 2.8rem;
+      width: 22.6rem;
+      margin: 6px auto 0;
+      background-color: #1d274b;
+      border-radius: 0.8rem; }
+      .top-user .top-user-box .v_message .v_inner {
+        width: 100%;
+        height: 2.8rem;
+        padding: 0 0.66rem;
+        line-height: 2.8rem;
+        display: flex;
+        align-items: center; }
+        .top-user .top-user-box .v_message .v_inner .v_line {
+          width: 21.23rem;
+          height: 1.2rem;
+          display: flex;
+          justify-content: space-between;
+          line-height: 1.2rem; }
+          .top-user .top-user-box .v_message .v_inner .v_line .v_line_left {
+            position: relative;
+            width: 14.532rem;
+            height: 100%;
+            color: #ffe678;
+            font-size: 0.8rem;
+            padding: 0 0 0 5.2rem; }
+          .top-user .top-user-box .v_message .v_inner .v_line .v_line_left::before {
+            position: absolute;
+            content: "";
+            left: -1.95rem;
+            top: -0.2rem;
+            color: #c3b572;
+            background: url(../img/jd-mine/plus.png) no-repeat;
+            width: 7.8rem;
+            height: 2rem;
+            transform: scale(0.52); }
+          .top-user .top-user-box .v_message .v_inner .v_line .v_line_left::after {
+            position: absolute;
+            content: "";
+            background-color: #c3b572;
+            left: 4.55rem;
+            top: 0.5rem;
+            font-size: 1rem;
+            color: #c3b572;
+            height: 0.46rem;
+            width: 0.06667rem; }
+          .top-user .top-user-box .v_message .v_inner .v_line .v_line_right {
+            position: relative;
+            height: 100%;
+            width: 5rem;
+            color: #262626;
+            padding: 0 0.66rem;
+            font-size: 0.8rem;
+            background-color: #fddf67;
+            border-radius: 1rem; }
+          .top-user .top-user-box .v_message .v_inner .v_line .v_line_right::after {
+            position: absolute;
+            font-family: "icomoon";
+            content: "";
+            right: 0.3rem;
+            top: 0.1rem;
+            font-size: 1rem; }
+
+.xlist_group {
+  height: 5.86rem;
+  width: 100%;
+  margin: -1.34rem 0 1rem;
+  padding: 0.533rem 0 0; }
+  .xlist_group .rel_contaniner {
+    height: 5.333rem;
+    width: 25rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center; }
+    .xlist_group .rel_contaniner .top_line_box {
+      width: 100%;
+      height: 3.4rem;
+      padding: 0 0.93rem;
+      display: flex;
+      justify-content: space-around; }
+      .xlist_group .rel_contaniner .top_line_box .x_item {
+        height: 100%;
+        width: 5.783rem;
+        text-align: center; }
+        .xlist_group .rel_contaniner .top_line_box .x_item img {
+          font-size: 0.93rem;
+          width: 1.75rem;
+          height: 1.75rem; }
+        .xlist_group .rel_contaniner .top_line_box .x_item span {
+          display: block;
+          font-size: 0.8rem; }
+      .xlist_group .rel_contaniner .top_line_box .x_item:nth-child(4) > span {
+        display: block;
+        height: 2rem;
+        width: 100%;
+        line-height: 1.8rem; }
+      .xlist_group .rel_contaniner .top_line_box .x_item:nth-child(4) {
+        position: relative; }
+      .xlist_group .rel_contaniner .top_line_box .x_item:nth-child(4)::before {
+        position: absolute;
+        content: "";
+        background: url(../img/jd-mine/tiao.png);
+        width: 0.67rem;
+        height: 4.8rem;
+        left: 0;
+        top: -1rem; }
+
+.xlist_group_two {
+  height: 5.33rem;
+  width: 100%; }
+  .xlist_group_two .x_item_line_box {
+    height: 100%;
+    width: 25rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.26rem;
+    padding: 0 0.93rem; }
+    .xlist_group_two .x_item_line_box .x_item_two {
+      height: 100%;
+      width: 4.627rem;
+      text-align: center;
+      padding: 1.13rem 0 0.66rem;
+      line-height: 1.23rem; }
+      .xlist_group_two .x_item_line_box .x_item_two span {
+        display: block;
+        font-weight: bold;
+        color: #262626; }
+      .xlist_group_two .x_item_line_box .x_item_two .cheap_text {
+        margin-top: 1.06rem;
+        font-size: 0.8rem;
+        color: #262626; }
+    .xlist_group_two .x_item_line_box .x_item_two:nth-child(2) {
+      position: relative; }
+    .xlist_group_two .x_item_line_box .x_item_two:nth-child(2) > span {
+      font-size: 0.8rem; }
+    .xlist_group_two .x_item_line_box .x_item_two:nth-child(2) > span:nth-child(1) {
+      position: absolute;
+      top: 0;
+      transform: scale(0.8);
+      right: -1rem;
+      padding: 0 0.533rem;
+      color: #FFFFFF;
+      background-color: #eb4342;
+      background: -webkit-linear-gradient(left, #e93b3d, #ff9574);
+      border-top-left-radius: 1.5rem;
+      border-bottom-right-radius: 1.2rem;
+      border-top-right-radius: 1.2rem;
+      font-weight: 500; }
+    .xlist_group_two .x_item_line_box .x_my_money {
+      position: relative;
+      height: 100%;
+      width: 4.627rem;
+      text-align: center;
+      padding: 1.13rem 0 0.66rem;
+      line-height: 1.23rem; }
+      .xlist_group_two .x_item_line_box .x_my_money .money_bag {
+        width: 4.627rem;
+        height: 1.75rem;
+        margin-top: -0.53rem; }
+        .xlist_group_two .x_item_line_box .x_my_money .money_bag img {
+          display: block;
+          width: 1.70rem;
+          height: 1.70rem;
+          margin: 0.3rem auto 0; }
+      .xlist_group_two .x_item_line_box .x_my_money .cheap_text {
+        margin-top: 0.78rem;
+        font-size: 0.8rem;
+        color: #262626; }
+    .xlist_group_two .x_item_line_box .x_my_money::before {
+      position: absolute;
+      content: "";
+      background: url(../img/jd-mine/tiao.png);
+      width: 0.67rem;
+      height: 4.8rem;
+      left: -0.3rem;
+      top: 0rem; }
+
+.content_linear {
+  height: 18rem;
+  width: 100%; }
+  .content_linear .logo_user {
+    height: 100%;
+    width: 25rem;
+    margin: 1rem auto 1rem;
+    background-color: #FFFFFF;
+    border-radius: 0.8rem; }
+    .content_linear .logo_user .logo_title_box {
+      position: relative;
+      height: 2.533rem;
+      width: 100%;
+      font-size: 0.93rem;
+      padding: 0 0 0 1.2rem;
+      color: #2e2d2d;
+      font-weight: bold;
+      line-height: 2.533rem; }
+    .content_linear .logo_user .logo_title_box::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0.05rem;
+      background-color: #f2f2f2;
+      bottom: 0;
+      left: 0; }
+    .content_linear .logo_user .logo_box {
+      height: 15.46rem;
+      width: 100%;
+      padding: 0 0 0.67rem;
+      display: flex;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      position: relative; }
+      .content_linear .logo_user .logo_box .item_box {
+        height: 4.8rem;
+        width: 6.25rem;
+        padding: 0.8rem 0 0;
+        text-align: center; }
+        .content_linear .logo_user .logo_box .item_box .icon_text {
+          height: 2.33rem;
+          width: 2.33rem;
+          margin: 0 1.9583rem 0.4rem; }
+          .content_linear .logo_user .logo_box .item_box .icon_text img {
+            width: 100%; }
+        .content_linear .logo_user .logo_box .item_box span {
+          display: block;
+          font-size: 0.8rem; }
+
+.mine_tj_box {
+  width: 100%;
+  text-align: center; }
+  .mine_tj_box .mine_tj_title {
+    position: relative;
+    width: 25rem;
+    height: 0.8rem;
+    margin: 1rem auto;
+    text-align: center; }
+    .mine_tj_box .mine_tj_title span {
+      position: relative;
+      display: block;
+      width: 5.2rem;
+      height: 0.93rem;
+      color: #999999;
+      padding: 0 1rem;
+      font-size: 0.8rem;
+      margin: 0 auto;
+      line-height: 0.93rem;
+      background-color: #f0f2f5;
+      z-index: 1; }
+    .mine_tj_box .mine_tj_title span::before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      margin-top: -2px;
+      width: 0.26rem;
+      height: 0.26rem;
+      left: -0.2rem;
+      background-color: #ccc;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .mine_tj_box .mine_tj_title span::after {
+      position: absolute;
+      content: "";
+      top: 50%;
+      margin-top: -2px;
+      width: 0.26rem;
+      height: 0.26rem;
+      right: -0.2rem;
+      background-color: #ccc;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .mine_tj_box .mine_tj_title::after {
+    position: absolute;
+    content: "";
+    pointer-events: none;
+    background-color: #ccc;
+    height: 1px;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    top: 50%; }
+  .mine_tj_box .tj_item_box {
+    width: 25rem;
+    margin: 0 auto; }
+    .mine_tj_box .tj_item_box ul {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      overflow: hidden; }
+      .mine_tj_box .tj_item_box ul li {
+        font-size: 0.8rem;
+        color: #666666;
+        background-color: #FFFFFF;
+        width: 12.4rem;
+        height: 16.3rem;
+        margin: 0 0 0.067rem;
+        padding: 1rem 1rem 0;
+        border-radius: 0.8rem; }
+        .mine_tj_box .tj_item_box ul li .item_cover {
+          height: 100%;
+          width: 100%; }
+          .mine_tj_box .tj_item_box ul li .item_cover .item_img {
+            height: 10.466rem;
+            width: 10.466rem; }
+            .mine_tj_box .tj_item_box ul li .item_cover .item_img img {
+              width: 100%; }
+          .mine_tj_box .tj_item_box ul li .item_cover .item_info {
+            position: relative;
+            height: 4.067rem;
+            width: 100%; }
+            .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_text {
+              height: 2.35rem;
+              width: 100%;
+              margin: 0.8rem 0.2667rem;
+              overflow: hidden;
+              white-space: wrap;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2; }
+              .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_text .item_icon {
+                height: 100%;
+                width: 100%;
+                position: relative;
+                text-indent: 1.5rem; }
+                .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_text .item_icon img {
+                  position: absolute;
+                  display: line-block;
+                  width: 1.6rem;
+                  height: 0.93rem;
+                  line-height: 0.93rem;
+                  top: 0;
+                  left: 0; }
+            .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_price {
+              position: absolute;
+              height: 1.4rem;
+              width: 100%;
+              display: flex;
+              justify-content: flex-start;
+              font-size: 0.93rem;
+              color: #E93B3D;
+              line-height: 1.4rem;
+              bottom: 0;
+              left: 0; }
+              .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_price .price_text {
+                font-size: 0.8rem;
+                margin: -0.15rem 0.2rem 0 0; }
+                .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_price .price_text em {
+                  font-size: 1.06rem;
+                  font-style: normal; }
+              .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_price .cell_text {
+                height: 1rem;
+                width: 2rem;
+                line-height: 1rem; }
+                .mine_tj_box .tj_item_box ul li .item_cover .item_info .item_price .cell_text span {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  font-size: 0.8rem;
+                  border: 0.01rem  solid #E93B3D;
+                  vertical-align: middle;
+                  padding: 0 0.01rem;
+                  margin-top: 0.1rem; }
+
+.bg_jd_icon {
+  height: 8rem;
+  width: 100%; }
+  .bg_jd_icon .jd_icon_footer {
+    width: 25rem;
+    height: 8rem;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex; }
+    .bg_jd_icon .jd_icon_footer .icon_box {
+      height: 1.33rem;
+      width: 100%;
+      margin: 1.66rem auto 5rem; }
+      .bg_jd_icon .jd_icon_footer .icon_box img {
+        display: block;
+        width: 6.67rem;
+        height: 100%;
+        margin: 0 auto; }
+
+.footer-common {
+  height: 10rem;
+  width: 25rem;
+  font-size: 0.93rem;
+  background-color: white;
+  margin: 0 auto; }
+  .footer-common .footer-text:nth-child(1) {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 1.33rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+    border-top: 0.01rem solid #e5e5e5; }
+    .footer-common .footer-text:nth-child(1) li:nth-child(1), .footer-common .footer-text:nth-child(1) li:nth-child(2), .footer-common .footer-text:nth-child(1) li:nth-child(3) {
+      width: 5.58rem;
+      padding: 0 0.33rem; }
+      .footer-common .footer-text:nth-child(1) li:nth-child(1) a, .footer-common .footer-text:nth-child(1) li:nth-child(2) a, .footer-common .footer-text:nth-child(1) li:nth-child(3) a {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #848689;
+        text-overflow: ellipsis;
+        white-space: wrap;
+        overflow: hidden; }
+      .footer-common .footer-text:nth-child(1) li:nth-child(1) a::after, .footer-common .footer-text:nth-child(1) li:nth-child(2) a::after, .footer-common .footer-text:nth-child(1) li:nth-child(3) a::after {
+        position: absolute;
+        content: "";
+        background-color: #e5e5e5;
+        height: 1.1rem;
+        width: 0.08rem;
+        top: 0;
+        right: 0; }
+    .footer-common .footer-text:nth-child(1) li:nth-child(4) {
+      width: 5.58rem;
+      padding: 0 0.33rem; }
+      .footer-common .footer-text:nth-child(1) li:nth-child(4) a {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #848689; }
+  .footer-common .footer-logo:nth-child(2) {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.5rem;
+    border-bottom: 0.01rem solid #e5e5e5; }
+    .footer-common .footer-logo:nth-child(2) li {
+      width: 100%;
+      height: 4rem; }
+      .footer-common .footer-logo:nth-child(2) li a {
+        display: block;
+        width: 100%;
+        text-align: center; }
+        .footer-common .footer-logo:nth-child(2) li a img {
+          width: 4rem; }
+  .footer-common .common-copyright {
+    font-size: 0.8rem;
+    color: #848689;
+    padding: 0.5rem 0;
+    text-align: center; }
+
+/*# sourceMappingURL=mine.css.map */

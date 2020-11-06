@@ -1,0 +1,325 @@
+.shop_cart {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+
+input {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.header_shop_cart {
+  height: 3rem;
+  width: 100%; }
+  .header_shop_cart .top-speak {
+    height: 100%;
+    width: 25rem;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem; }
+    .header_shop_cart .top-speak .return-view {
+      height: 2.933rem;
+      width: 2.66rem;
+      line-height: 2.933rem;
+      text-align: center; }
+      .header_shop_cart .top-speak .return-view i {
+        font-size: 1.4rem; }
+    .header_shop_cart .top-speak .title-text {
+      height: 2.933rem;
+      width: 15.66rem;
+      text-align: center;
+      line-height: 2.933rem; }
+    .header_shop_cart .top-speak .more-nav {
+      height: 2.933rem;
+      width: 2.66rem; }
+      .header_shop_cart .top-speak .more-nav span {
+        display: block;
+        font-size: 2rem;
+        height: 1.3rem;
+        width: 1.3rem;
+        margin: 0.8rem 0.8rem 0.8rem 0.66rem;
+        line-height: 0rem; }
+
+.address_bar_warp {
+  width: 100%;
+  height: 3.265rem;
+  position: sticky;
+  top: -0.1rem;
+  left: 0;
+  z-index: 2; }
+  .address_bar_warp .address_bar {
+    height: 100%;
+    width: 25rem;
+    font-size: 0.8667rem;
+    margin: 0.05rem auto;
+    background-color: #FFFFFF;
+    color: #262626;
+    padding: 0 0.08rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem; }
+    .address_bar_warp .address_bar .address_bar_text {
+      position: relative;
+      height: 100%;
+      width: 17.938rem;
+      padding: 0 1.2rem;
+      line-height: 3.265rem; }
+    .address_bar_warp .address_bar .address_bar_text::after {
+      position: absolute;
+      content: "";
+      width: 0.067rem;
+      height: 0.667rem;
+      background-color: #bfbfbf;
+      right: 0;
+      top: 1.3332rem; }
+    .address_bar_warp .address_bar span {
+      height: 100%;
+      margin: 0 0 0 1.2rem;
+      line-height: 3.265rem; }
+
+.section_list {
+  width: 100%; }
+  .section_list .section_item {
+    height: 18.456rem;
+    width: 25rem;
+    margin: 0.8rem auto 0.8rem;
+    padding: 0.8rem 0 0.06667rem;
+    background-color: #FFFFFF;
+    border-radius: 0.6rem;
+    font-size: 0.8rem; }
+    .section_list .section_item .head_section {
+      position: sticky;
+      top: 0rem;
+      left: 0;
+      height: 2rem;
+      width: 100%;
+      margin: 0 0 0.8rem;
+      padding: 0.4rem 1.2rem 0.4rem 3.33rem;
+      display: flex;
+      justify-content: space-between; }
+      .section_list .section_item .head_section .dian_name {
+        height: 1.2rem;
+        margin: 0 0.6667rem 0 0;
+        font-weight: bold;
+        font-family: arial; }
+      .section_list .section_item .head_section .btn {
+        width: 3.2rem;
+        height: 1.2rem;
+        color: #f2270c;
+        font-size: 0.8rem;
+        background-color: #fcedeb;
+        padding: 0.2rem 0.4rem;
+        border-radius: 1.2rem;
+        line-height: 1rem; }
+    .section_list .section_item .item_box {
+      height: 14.794rem;
+      width: 100%; }
+      .section_list .section_item .item_box .head_act {
+        height: 1.2rem;
+        width: 100%;
+        margin: 0 auto 1.2rem;
+        padding: 0 1.2rem 0 0;
+        display: flex;
+        justify-content: space-around; }
+        .section_list .section_item .item_box .head_act .title {
+          height: 1.2rem;
+          font-family: arial;
+          font-weight: bold;
+          display: flex;
+          align-items: center; }
+          .section_list .section_item .item_box .head_act .title .tap {
+            display: inline-block;
+            height: 0.867rem;
+            padding: 0.1rem 0.3rem;
+            color: #FFFFFF;
+            font-weight: normal;
+            background-color: #F2270C;
+            border-radius: 0.2rem;
+            line-height: 0.867rem; }
+      .section_list .section_item .item_box .item_connect {
+        position: relative;
+        height: 11.191rem;
+        width: 100%;
+        margin: 0 0 1.2rem;
+        padding: 0 1.2rem 0 10.8rem; }
+        .section_list .section_item .item_box .item_connect i {
+          position: absolute;
+          height: 100%;
+          width: 3.33rem;
+          left: 0;
+          top: 0; }
+        .section_list .section_item .item_box .item_connect .image_wrap {
+          position: absolute;
+          top: 0;
+          left: 3.33rem;
+          height: 6.6667rem;
+          width: 6.6667rem; }
+          .section_list .section_item .item_box .item_connect .image_wrap img {
+            width: 100%; }
+        .section_list .section_item .item_box .item_connect .content {
+          height: 100%;
+          width: 100%;
+          color: #262626;
+          font-size: 0.8rem; }
+          .section_list .section_item .item_box .item_connect .content .content_text {
+            width: 100%;
+            height: 2.2rem;
+            margin: 0 0 0.4rem;
+            -webkit-line-clamp: 2;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden; }
+            .section_list .section_item .item_box .item_connect .content .content_text span {
+              display: inline-block;
+              vertical-align: middle;
+              height: 0.93rem;
+              margin-right: 3px; }
+              .section_list .section_item .item_box .item_connect .content .content_text span img {
+                display: block;
+                width: 3.8333rem;
+                height: 0.93rem; }
+          .section_list .section_item .item_box .item_connect .content .content_guige {
+            width: 100%;
+            height: 1.0333rem;
+            margin: 0.4rem 0 0; }
+          .section_list .section_item .item_box .item_connect .content .discount_line {
+            width: 100%;
+            height: 1.33rem;
+            margin: 0.333rem 0 0; }
+          .section_list .section_item .item_box .item_connect .content .price_line {
+            width: 100%;
+            height: 1.8rem;
+            margin: 0.333rem 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            .section_list .section_item .item_box .item_connect .content .price_line .price {
+              height: 100%;
+              color: #F2270C;
+              height: 1rem; }
+              .section_list .section_item .item_box .item_connect .content .price_line .price em {
+                font-size: 1.2rem;
+                font-weight: bold;
+                font-style: normal; }
+            .section_list .section_item .item_box .item_connect .content .price_line .num_wrap {
+              width: 4.3986rem;
+              height: 1rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center; }
+              .section_list .section_item .item_box .item_connect .content .price_line .num_wrap .num_text input {
+                height: 1rem;
+                width: 2.398666rem;
+                background-color: #F2F2F2;
+                text-align: center; }
+          .section_list .section_item .item_box .item_connect .content .m_action {
+            width: 100%;
+            height: 1rem;
+            margin: 0.6667rem 0 0;
+            text-align: right; }
+          .section_list .section_item .item_box .item_connect .content .goods_line {
+            width: 100%;
+            height: 1.2rem;
+            margin: 0.6667rem 0 0; }
+
+.shopcart_btm_tips_box {
+  position: fixed;
+  bottom: 6.3rem;
+  height: 2.933rem;
+  width: 100%; }
+  .shopcart_btm_tips_box .shopcart_btm_tips {
+    position: relative;
+    height: 100%;
+    width: 25rem;
+    font-size: 0.8rem;
+    padding: 0.333rem 0 0.333rem 2.8rem;
+    background: #fcf6ed;
+    color: #de8c17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; }
+    .shopcart_btm_tips_box .shopcart_btm_tips .shopcart_btm_tips_text {
+      height: 1.2rem;
+      width: 16.53rem;
+      color: #de8c17; }
+      .shopcart_btm_tips_box .shopcart_btm_tips .shopcart_btm_tips_text span {
+        color: #F2270C;
+        margin: 0 0.333rem;
+        padding: 0 0.333rem 0.533rem; }
+    .shopcart_btm_tips_box .shopcart_btm_tips .shopcart_btm_tips_link {
+      height: 2.133rem;
+      width: 5.666rem;
+      line-height: 2.133rem;
+      text-align: right;
+      color: red;
+      margin-right: 1rem; }
+  .shopcart_btm_tips_box .shopcart_btm_tips::before {
+    content: "";
+    position: absolute;
+    background: url(../img/jd-buycart/3.png) no-repeat;
+    height: 3.8rem;
+    width: 3.8rem;
+    transform: scale(0.5);
+    left: -0.3rem;
+    top: -0.5rem;
+    line-height: 3.8rem; }
+
+.fixBar_selected {
+  position: fixed;
+  bottom: 3rem;
+  height: 3.333rem;
+  width: 100%; }
+  .fixBar_selected .all_selected {
+    height: 100%;
+    width: 25rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0 0 0 3.2rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.05rem solid #f0f2f5; }
+    .fixBar_selected .all_selected .total_price {
+      height: 100%;
+      width: 10rem;
+      color: #262626;
+      padding-right: 1rem;
+      font-size: 1rem;
+      vertical-align: middle; }
+      .fixBar_selected .all_selected .total_price .all_price_oneline {
+        height: 1rem;
+        width: 9rem;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1rem;
+        text-align: right;
+        margin-top: 0.5rem; }
+        .fixBar_selected .all_selected .total_price .all_price_oneline .all_price_oneline_text {
+          font-weight: normal; }
+      .fixBar_selected .all_selected .total_price .all_price_twoline {
+        height: 1.06rem;
+        width: 9rem;
+        font-size: 0.8rem;
+        padding: 0.266rem 0 0;
+        line-height: 1.06rem;
+        text-align: right; }
+    .fixBar_selected .all_selected .section_buy {
+      height: 2.533rem;
+      padding: 0 0.8rem;
+      font-size: 0.93rem;
+      background-color: #f2270c;
+      color: #FFFFFF;
+      font-weight: bold;
+      border-radius: 1.6rem;
+      line-height: 2.533rem;
+      margin: 0.4rem 0.8rem 0.4rem 0rem; }
+
+/*# sourceMappingURL=buycart.css.map */

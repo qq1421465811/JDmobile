@@ -1,0 +1,262 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 15px;
+  background-color: #f0f2f5;
+}
+
+ul li {
+  list-style: none;
+}
+
+.fx {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f7f6f9;
+  overflow: hidden;
+}
+
+.find_top {
+  position: relative;
+  height: 17.3rem;
+  width: 25rem;
+  margin: 0 auto;
+}
+.find_top .find_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12.333rem;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #f02430, #ffffff);
+}
+.find_top .top_Search_line {
+  height: 1.87rem;
+  width: 100%;
+  position: absolute;
+  top: 2rem;
+  left: 0rem;
+}
+.find_top .top_Search_line .Search_line_box {
+  height: 100%;
+  width: 22.66rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+.find_top .top_Search_line .Search_line_box i {
+  height: 1.53rem;
+  width: 1.53rem;
+  line-height: 1.53rem;
+  font-size: 1.42rem;
+}
+.find_top .top_Search_line .Search_line_box span {
+  display: block;
+  font-size: 1.7rem;
+  margin-left: 2.5rem;
+  margin-top: -0.3rem;
+}
+.find_top .top_Search_line .Search_line_box .Search_right {
+  height: 100%;
+  width: 4.33rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.find_top .top_tabber {
+  position: sticky;
+  width: 100%;
+  height: 1.667rem;
+  top: 5.33rem;
+}
+.find_top .top_tabber .top_tabber_box {
+  height: 100%;
+  width: 16.6rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  color: #FFFFFF;
+}
+.find_top .top_tabber .top_tabber_box .active {
+  border-bottom: 0.1rem solid indianred;
+}
+
+.find_shop_home {
+  position: relative;
+  width: 25rem;
+  bottom: 10rem;
+  margin: 0 auto;
+  display: flex;
+}
+.find_shop_home .list_item_box {
+  height: 100%;
+  width: 25rem;
+  margin: 0 auto;
+  display: none;
+}
+.find_shop_home .list_item_box .top_img {
+  height: 9.333rem;
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.find_shop_home .list_item_box .top_img img {
+  display: block;
+  width: 24.6;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+}
+.find_shop_home .list_item_box .list_item {
+  width: 23.6rem;
+  background-color: #FFFFFF;
+  border-radius: 0.6rem;
+  margin: 0.66rem auto;
+}
+.find_shop_home .list_item_box .list_item .home_name {
+  position: relative;
+  height: 3.333rem;
+  width: 20.6rem;
+  margin: 0 auto;
+  line-height: 3.333rem;
+}
+.find_shop_home .list_item_box .list_item .home_name .home_name_left {
+  height: 100%;
+  width: 9.333rem;
+  position: absolute;
+  left: 0;
+}
+.find_shop_home .list_item_box .list_item .home_name .home_name_left .home_name_left_text {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 1rem;
+  text-indent: 2.5rem;
+}
+.find_shop_home .list_item_box .list_item .home_name .home_name_left .home_name_left_text img {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  color: #FFFFFF;
+  line-height: 2rem;
+  border: 0.01rem rgba(243, 243, 243, 0.5) solid;
+  border-radius: 15rem;
+  transform: scale(0.7);
+}
+.find_shop_home .list_item_box .list_item .home_name .home_name_right {
+  height: 100%;
+  width: 3.8rem;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find_shop_home .list_item_box .list_item .home_name .home_name_right span {
+  position: relative;
+  display: block;
+  height: 1.6667rem;
+  width: 100%;
+  font-size: 0.8rem;
+  line-height: 1.6667rem;
+  background-color: #f43556;
+  color: #FFFFFF;
+  border-radius: 1rem;
+  text-align: center;
+  padding-left: 0.5rem;
+}
+.find_shop_home .list_item_box .list_item .home_name .home_name_right span::before {
+  position: absolute;
+  content: "";
+  font-family: icomoon;
+  left: 0.3rem;
+  top: 0.4rem;
+  width: 1rem;
+  height: 1rem;
+  color: #FFFFFF;
+  line-height: 1rem;
+}
+.find_shop_home .list_item_box .list_item .home_info {
+  height: 6.667rem;
+  width: 20.6rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_left {
+  height: 100%;
+  width: 6.667rem;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_left img {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_right {
+  position: relative;
+  height: 100%;
+  width: 13rem;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_right .info_right_text {
+  height: 2rem;
+  width: 100%;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 1.1rem;
+  font-size: 0.9rem;
+  color: #333333;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_right .info_right_price {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  color: red;
+  display: flex;
+  width: 38%;
+  justify-content: flex-start;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_right .info_right_price span {
+  font-size: 0.8rem;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_right .info_right_price s {
+  position: absolute;
+  display: block;
+  font-size: 0.8rem;
+  color: #CCCCCC;
+  transform: scale(0.8);
+  top: 0.3rem;
+  right: 0rem;
+}
+.find_shop_home .list_item_box .list_item .home_info .info_right .info_right_price em {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+}
+.find_shop_home .find_panel_active {
+  display: block;
+}
+
+.find_fotter {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #C5C5C5;
+}
+
+/*# sourceMappingURL=find.css.map */
